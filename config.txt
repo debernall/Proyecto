@@ -1,0 +1,5 @@
+Para trabajar en un mismo ambiente:
+1. Ejecutar solo la primer vez al clonar el repositorio:
+conda env create -f environment.yml
+2. Para actualizar luego de tener actualizaciones:
+conda env update --file environment.yml
