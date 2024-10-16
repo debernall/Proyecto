@@ -9,3 +9,27 @@ conda env update --file environment.yml --prune
     conda info --envs               #Entrega una lista de los ambientes disponibles en conda y señala el ambiente activo
     conda activate C:\Users\danie\Documents\Anaconda\envs\EnvBootcam     #Ejemplo, activa el ambiente EnvBootcam
     conda install nombrepaquete     #instala paquete
+
+MONGO
+    {'user':'RainUser', 'password':'Zq0MNPLKWqcSzeGD'}
+    {'user':'RainUser2', 'password':'SUqSXsXL9AxVHUXB'}
+
+    Use this connection string in your application:
+    1) mongodb+srv://RainUser:Zq0MNPLKWqcSzeGD@raincluster.e91zm.mongodb.net/
+            The password for RainUser is included in the connection string for your first time setup. This password will not be available again after exiting this connect flow.
+    2) mongodb+srv://RainUser2:SUqSXsXL9AxVHUXB@raincluster.e91zm.mongodb.net/
+
+    ESTRUCTURA PARA CARGAR DATOS EN MONGO
+
+        CodigoEstacion string
+        CodigoSensor string
+        FechaObservacion string
+        ValorObservado Double
+        NombreEstacion string
+        Departamento string
+        Municipio string
+        zonaHidrografica string
+        Latitud Double
+        Longitud Double
+        DescripcionSensor string
+        UnidadMedida string
