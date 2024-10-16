@@ -1,3 +1,1 @@
-xmnvdkjfvndfkjvfdv
-dfbkfklfgb
-bfgncghmchjhmgmcghcghn
+Tablero: https://trello.com/b/TSsJrIaO/bootcamp 

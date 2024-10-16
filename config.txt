@@ -2,7 +2,7 @@ Para trabajar en un mismo ambiente:
 1. Ejecutar solo la primer vez al clonar el repositorio:
 conda env create -f environment.yml
 2. Para actualizar luego de tener actualizaciones:
-conda env update --file environment.yml
+conda env update --file environment.yml --prune
 
 # Trabajar con ambientes conda en VS
     Para poder instalar un paquete en un ambiente específico de conda, es necesario configurar la terminal de VS como cmd
