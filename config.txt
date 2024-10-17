@@ -7,7 +7,7 @@ conda env update --file environment.yml --prune
 # Trabajar con ambientes conda en VS
     Para poder instalar un paquete en un ambiente específico de conda, es necesario configurar la terminal de VS como cmd
     conda info --envs               #Entrega una lista de los ambientes disponibles en conda y señala el ambiente activo
-    conda activate C:\Users\danie\Documents\Anaconda\envs\EnvBootcam     #Ejemplo, activa el ambiente EnvBootcam
+    conda activate C:\Users\danie\Documents\Anaconda\envs\EnvBootcamp     #Ejemplo, activa el ambiente EnvBootcam
     conda install nombrepaquete     #instala paquete
 
 MONGO
@@ -33,3 +33,6 @@ MONGO
         Longitud Double
         DescripcionSensor string
         UnidadMedida string
+
+    GIT https://www.youtube.com/watch?v=qdec2M4NwT0&ab_channel=render2web
+    
